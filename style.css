@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: url('img/bg.jpg') no-repeat center;
+  background: url('img/wave.png') no-repeat center;
   background-size: cover;
   font-family: sans-serif;
 }
@@ -24,7 +24,10 @@ body {
   border-radius: 10px;
   color: #fff;
   box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+  margin-right: 800px;
+  margin-bottom: 200px;
 }
+
 .form::before {
   content:'';
   position: absolute;
@@ -126,3 +129,12 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
+.title {
+    font-size: 50px;
+    width: 543px;
+    height: 100%;
+    float: right;
+    margin-right: 30px;
+    margin-top: 40px;
+  }
